@@ -1,8 +1,8 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://urbanisierung.github.io/docusaurus-v2-playground',
-  baseUrl: '/',
+  url: 'https://urbanisierung.github.io',
+  baseUrl: '/docusaurus-v2-playground/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'urbanisierung', // Usually your GitHub org/user name.
