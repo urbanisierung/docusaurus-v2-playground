@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'urbanisierung', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-v2-playground', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
