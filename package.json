@@ -5,9 +5,9 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "node --max_old_space_size=16000 node_modules/@docusaurus/core/bin/docusaurus build",
+    "build": "node --max_old_space_size=8192 node_modules/@docusaurus/core/bin/docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "node --max_old_space_size=8192 node_modules/@docusaurus/core/bin/docusaurus deploy",
     "serve": "docusaurus serve"
   },
   "dependencies": {
@@ -15,8 +15,10 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.64",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-embed-gist": "^1.0.10",
+    "react-gist": "^1.2.2"
   },
   "browserslist": {
     "production": [
