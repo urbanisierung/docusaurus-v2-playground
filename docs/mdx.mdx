@@ -1,0 +1,36 @@
+---
+id: mdx
+title: Powered by MDX
+---
+
+You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>{children}</span> );
+
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+
+export const Mytest = () => ( <div>test</div> );
+
+<Mytest></Mytest>
+
+I can write **Markdown** alongside my _JSX_!
+
+[Here](./doc4.md) it is
+
+--
+
+<!-- import ReactEmbedGist from 'react-embed-gist';
+
+<ReactEmbedGist gist="msaracevic/5d757e2fc72482a9a4a439969500c2eb" /> -->
+<!-- https://github.com/msaracevic/react-embed-gist -->
+
+import Gist from 'react-gist'
+
+<Gist id='5995ea726914f280afb3' file='Chef-Dockerfile' />
+
+<!-- https://www.npmjs.com/package/react-gist -->
